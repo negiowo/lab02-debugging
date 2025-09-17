@@ -1,5 +1,13 @@
 # lab02-debugging
 
+Name: Joshua Zhang
+Link: [Shadertoy link](https://www.shadertoy.com/view/3cffDl)
+Bugs found: 
+  1. line 97, changed uv to uv2 (compiler warning)
+  2. line 100, changed uv to uv2 (objects out of position)
+  3. line 11, changed the second iResolution.x to iResolution.y (ovals instead of spheres)
+  4. line 75, changed eye to dir (reflection not working properly)
+
 # Setup 
 
 Create a [Shadertoy account](https://www.shadertoy.com/). Either fork this shadertoy, or create a new shadertoy and copy the code from the [Debugging Puzzle](https://www.shadertoy.com/view/flGfRc).
@@ -11,9 +19,3 @@ It don't do that. Correct THREE of the FIVE bugs that are messing up the output.
 
 Extra credit if you can find all FIVE bugs.
 
-# Submission
-- Create a pull request to this repository
-- In the README, include the names of both your team members
-- In the README, create a link to your shader toy solution with the bugs corrected
-- In the README, describe each bug you found and include a sentence about HOW you found it.
-- Make sure all three of your shadertoys are set to UNLISTED or PUBLIC (so we can see them!)
