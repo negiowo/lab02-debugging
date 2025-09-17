@@ -1,7 +1,9 @@
 # lab02-debugging
 
 Name: Joshua Zhang
+
 Link: [Shadertoy link](https://www.shadertoy.com/view/3cffDl)
+
 Bugs found: 
   1. line 97, changed uv to uv2 (compiler warning)
   2. line 100, changed uv to uv2 (objects out of position)
